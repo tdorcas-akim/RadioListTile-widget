@@ -41,3 +41,8 @@ Credits
 Built following the official Flutter RadioListTile class
 documentation:
 https://api.flutter.dev/flutter/material/RadioListTile-class.html
+
+Screenshot
+
+<img width="275" height="537" alt="image" src="https://github.com/user-attachments/assets/4a5e993a-0e23-40ce-ace8-1ce0f8e05d17" />
+
