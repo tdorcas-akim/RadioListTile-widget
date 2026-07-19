@@ -31,7 +31,7 @@ groupValue is selected, which keeps the choice mutually exclusive.
 2. activeColor : sets the color of the radio circle once selected.
 Demo includes color dots to change it live.
 
-controlAffinity : sets whether the radio circle appears on the
+3. controlAffinity : sets whether the radio circle appears on the
 left (leading) or right (trailing) of the option text. Demo
 includes a switch to toggle it live.
 
