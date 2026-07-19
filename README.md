@@ -1,17 +1,40 @@
-# radiolisttile_widget
+RadioListTile Widget Demo: Trivia Quiz
 
-A new Flutter project.
+A tiny Flutter app that shows the RadioListTile widget in action: answer a trivia question by picking one option, then tap Submit to see if you got it right.
 
-## Getting Started
+How to run
 
-This project is a starting point for a Flutter application.
+Make sure you have Flutter installed (run "flutter --version" to check).
+Clone this repo and move into the folder:
 
-A few resources to get you started if this is your first Flutter project:
+   git clone https://github.com/tdorcas-akim/RadioListTile-widget.git
+   cd radiolisttile_widget
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Get the dependencies:
+
+   flutter pub get
+
+
+Run the app on a connected device/emulator:
+
+   flutter run
+
+The three attributes demonstrated
+
+
+value / groupValue : each tile has its own value; all tiles
+share one groupValue. Only the tile whose value matches
+groupValue is selected, which keeps the choice mutually exclusive.
+activeColor : sets the color of the radio circle once selected.
+Demo includes color dots to change it live.
+controlAffinity : sets whether the radio circle appears on the
+left (leading) or right (trailing) of the option text. Demo
+includes a switch to toggle it live.
+
+
+Credits
+
+Built following the official Flutter RadioListTile class
+documentation:
+https://api.flutter.dev/flutter/material/RadioListTile-class.html
