@@ -8,6 +8,7 @@ Make sure you have Flutter installed (run "flutter --version" to check).
 Clone this repo and move into the folder:
 
    git clone https://github.com/tdorcas-akim/RadioListTile-widget.git
+   
    cd radiolisttile_widget
 
 
@@ -26,8 +27,10 @@ The three attributes demonstrated
 value / groupValue : each tile has its own value; all tiles
 share one groupValue. Only the tile whose value matches
 groupValue is selected, which keeps the choice mutually exclusive.
+
 activeColor : sets the color of the radio circle once selected.
 Demo includes color dots to change it live.
+
 controlAffinity : sets whether the radio circle appears on the
 left (leading) or right (trailing) of the option text. Demo
 includes a switch to toggle it live.
